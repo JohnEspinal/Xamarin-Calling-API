@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RiotAPI.Views.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label Text="League of Legends summoner level finder" FontSize="Medium"/>
+
+        <Entry Text="{Binding SummonerName}" Placeholder="Type a summoner name here..."/>
+
+        <Button Text="Find Summoner Level" Command="{Binding GetSummonerCommand}"/>
+        
+
+        <Label Text="{Binding Summoner.SummonerLevel}"/>
+
+
+    </StackLayout>
+
+</ContentPage>
