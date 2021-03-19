@@ -11,7 +11,17 @@ The image below shows the Main page.
 
 Here you can write a league of legends summoner name and verify the level of that summoner by typing it and tapping the button "Find summoner level".
 
-If you don't have internet connection it has to throw an alert notifying you about it.
+Some examples of valid users are:
+
+- IV Jhin
+- Flemix
+- I delete your ad
+- Ghetto Lee
+- Progenic
+
+And any other league of legends summoner from LATAN.
+
+Note: If you don't have internet connection it has to throw an alert notifying you about it.
 
 
 # Api Documentation
