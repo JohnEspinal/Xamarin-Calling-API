@@ -11,13 +11,11 @@ namespace RiotAPI.Services
         {
             Summoner summ = null;
 
-            Secret secret = new Secret();
-
             HttpClient client = new HttpClient();
 
             var formattedSummonerName = summonerName.Replace(" ", "%20");
 
-            var urlString = $"https://la1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{formattedSummonerName}?api_key={secret.ApyKey}";
+            var urlString = $"https://la1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{formattedSummonerName}?api_key={Secret.ApyKey}";
 
 
 

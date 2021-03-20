@@ -4,8 +4,9 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 
-
+# Secret
 RiotAPI/ApiKey.cs
+
 # User-specific files
 *.rsuser
 *.suo

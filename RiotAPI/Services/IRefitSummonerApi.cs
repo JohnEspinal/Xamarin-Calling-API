@@ -11,7 +11,7 @@ namespace RiotAPI.Services
     {
 
 
-        [Get("/lol/summoner/v4/summoners/by-name/{summonerName}?api_key=RGAPI-8214dfc1-21a7-4243-a92c-4f8cc83e714a")]
+        [Get($"/lol/summoner/v4/summoners/by-name/{summonerName}?api_key={Secret.ApyKey}")]
         Task<Summoner> GetSummonerAsync(string summonerName);
     }
 }
